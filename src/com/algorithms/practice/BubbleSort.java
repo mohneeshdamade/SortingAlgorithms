@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BubbleSort implements SortArrays {
 
 	@Override
-	public int[] sort(int[] arrayToSort) {
+	public void sort(int[] arrayToSort) {
 		
 		System.out.println("Sorting using Bubble SortArrays Technique : " + Arrays.toString(arrayToSort));
 		//Run the outer loop over the unsorted array
@@ -22,7 +22,6 @@ public class BubbleSort implements SortArrays {
 		}
 		
 		
-		return null;
 	}
 	
 	private void swap(int[] arrayToSort,int i ,int j){
