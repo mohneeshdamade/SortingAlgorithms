@@ -10,8 +10,12 @@ public class SortAlgorithms {
 //		bubbleSort.sort(arrayToSort);
 
 		
-		SortArrays selectionSort= new SelectionSort();
-		selectionSort.sort(arrayToSort);
+//		SortArrays selectionSort= new SelectionSort();
+//		selectionSort.sort(arrayToSort);
+
+		SortArrays insertionSort= new InsertionSort();
+		insertionSort.sort(arrayToSort);
+	
 	}
 
 }
