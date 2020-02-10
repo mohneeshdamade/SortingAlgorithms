@@ -10,7 +10,7 @@ import java.util.Arrays;
  * shift the values greater to the new element to the right of the array.
  * 
  * Time complexity : O(n2) Quadratic
- * 
+ * Stable algorithm
  * @author Mohneesh
  *
  */
